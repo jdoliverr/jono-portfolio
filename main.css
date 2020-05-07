@@ -32,7 +32,7 @@ header {
 }
 
 section {
-    min-height: 100px;
+    min-height: 90px;
     padding: 6% 0;
     background-color: #bbb;
 }
@@ -45,6 +45,11 @@ img {
     max-width: 100%;
 }
 
+h2 {
+    text-decoration: underline;
+    margin-top: 0;
+}
+
 .css-logo, .html-logo, .javascript-logo, .github-logo, .linkedin-logo .email-logo {
     width: 2%;
     height: 2%;
@@ -52,6 +57,10 @@ img {
 
 .quiz-screenshot {
     width: 90%;
+}
+
+.contact-header {
+    font-size: 14px;
 }
 
 @media screen and (min-width: 900px) {
@@ -62,6 +71,10 @@ img {
 
     .quiz-screenshot {
         width: 80%;
+    }
+
+    .contact-header {
+        font-size: 20px;
     }
 }
 
