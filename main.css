@@ -44,7 +44,7 @@ header {
 }
 
 .head-text {
-    vertical-align: bottom;
+    font-size: 30px;
 }
 
 
@@ -124,5 +124,9 @@ h2 {
     .css-logo, .html-logo, .javascript-logo, .github-logo, .linkedin-logo, .email-logo {
         width: 4%;
         height: 4%;
+    }
+
+    .head-text {
+        font-size: 12px;
     }
 }
