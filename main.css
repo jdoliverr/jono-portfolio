@@ -5,7 +5,7 @@
 body {
     font-family: "Open Sans",
     sans-serif; 
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-align: center;
     line-height: 2;
@@ -14,6 +14,7 @@ body {
 
 p {
     padding: 10px;
+    font-size: 12px;
 }
 
 nav,
@@ -45,7 +46,7 @@ header {
 }
 
 .head-text {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 
@@ -74,9 +75,11 @@ h2 {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
 .css-logo, .html-logo, .javascript-logo, .github-logo, .linkedin-logo, .email-logo {
-    width: 2%;
-    height: 2%;
+    width: 4%;
+    height: 4%;
 }
 
 .screenshot {
@@ -87,10 +90,17 @@ h2 {
     font-size: 14px;
 }
 
+.quiz-link {
+    font-size: 10px;
+}
+
+
+
 @media screen and (min-width: 900px) {
     body {
         margin-left: 5%;
         margin-right: 5%;
+        font-size: 20px;
     }
 
     .screenshot {
@@ -100,34 +110,29 @@ h2 {
     .contact-header {
         font-size: 20px;
     }
-}
 
-@media screen and (max-width: 900px) {
-    body {
-        font-size: 15px;
+    .logo-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     p {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .quiz-link {
-        font-size: 10px;
-    }
-
-    .github-logo {
-        width: 4%;
-        height: 4%;
+        font-size: 20px;
     }
 
     .css-logo, .html-logo, .javascript-logo, .github-logo, .linkedin-logo, .email-logo {
-        width: 4%;
-        height: 4%;
+        width: 2%;
+        height: 2%;
     }
 
     .head-text {
-        font-size: 12px;
+        font-size: 30px;
     }
 }
