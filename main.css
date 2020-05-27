@@ -46,7 +46,7 @@ header {
 }
 
 .head-text {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 
@@ -133,6 +133,6 @@ h2 {
     }
 
     .head-text {
-        font-size: 12px;
+        font-size: 30px;
     }
 }
